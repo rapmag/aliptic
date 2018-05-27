@@ -1,0 +1,10 @@
+2018-05-27T12:35:08+00:00 CRITICAL Uncaught Error: Call to undefined function wp_add_privacy_policy_content() in /Users/Administrateur/Downloads/wordpress/wp-admin/includes/misc.php:1791
+Stack trace:
+#0 /Users/Administrateur/Downloads/wordpress/wp-includes/class-wp-hook.php(286): WP_Privacy_Policy_Content::add_suggested_content('')
+#1 /Users/Administrateur/Downloads/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/Administrateur/Downloads/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/Administrateur/Downloads/wordpress/wp-admin/admin.php(156): do_action('admin_init')
+#4 /Users/Administrateur/Downloads/wordpress/wp-admin/index.php(10): require_once('/Users/Administ...')
+#5 {main}
+  thrown
+
